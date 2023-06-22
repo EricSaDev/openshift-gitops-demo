@@ -7,4 +7,4 @@ resources:
 - bgd-svc.yaml
 namespace: demo-gitops-sascar
 commonAnnotations:
-  bgd/version: v1
+  bgd/version: v2
