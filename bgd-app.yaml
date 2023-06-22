@@ -10,7 +10,7 @@ spec:
   source:
     path: bgd
     repoURL: https://github.com/EricSaDev/openshift-gitops-demo
-    targetRevision: main
+    targetRevision: deployment
   syncPolicy:
     automated:
       prune: true
