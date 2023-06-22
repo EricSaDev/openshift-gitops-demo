@@ -6,8 +6,3 @@ resources:
 - bgd-route.yaml
 - bgd-svc.yaml
 namespace: demo-gitops-sascar
-replicas:
-- count: 1
-  name: bgd
-commonAnnotations:
-  bgd-version: v3
