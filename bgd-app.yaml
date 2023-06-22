@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: bgd-app
+spec:
+  destination:
+    namespace: demo-gitops-sascar
+    server: https://kubernetes.default.svc
+  project: demo-gitops-sascar
+  source:
+    path: bgd
+    repoURL: https://github.com/EricSaDev/openshift-gitops-demo
+    targetRevision: master
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: false
