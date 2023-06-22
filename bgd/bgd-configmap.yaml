@@ -3,4 +3,4 @@ apiVersion: v1
 metadata:
   name: bgd-color
 data:
-  COLOR: blue
+  COLOR: green
