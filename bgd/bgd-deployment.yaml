@@ -20,10 +20,7 @@ spec:
         name: bgd
         env:
         - name: COLOR
-          valueFrom:
-            configMapKeyRef:
-              name: bgd-color
-              key: COLOR
+          value: blue
         resources: {}
         securityContext:
           allowPrivilegeEscalation: false
