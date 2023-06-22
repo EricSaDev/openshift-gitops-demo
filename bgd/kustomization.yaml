@@ -10,4 +10,4 @@ replicas:
 - count: 1
   name: bgd
 commonAnnotations:
-  bgd-version: v4
+  bgd-version: v1
