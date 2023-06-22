@@ -9,5 +9,5 @@ namespace: demo-gitops-sascar
 commonAnnotations:
   bgd-version: v2
 replicas:
-- count: 1
+- count: 5
   name: bgd
