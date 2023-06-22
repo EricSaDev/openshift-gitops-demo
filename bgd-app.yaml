@@ -6,11 +6,11 @@ spec:
   destination:
     namespace: demo-gitops-sascar
     server: https://kubernetes.default.svc
-  project: demo-gitops-sascar
+  project: default
   source:
     path: bgd
     repoURL: https://github.com/EricSaDev/openshift-gitops-demo
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
