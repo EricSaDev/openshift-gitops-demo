@@ -5,7 +5,7 @@ resources:
 - bgd-deployment.yaml
 - bgd-route.yaml
 - bgd-svc.yaml
-namespace: demo-gitops-sascar
+namespace: demo-gitops-mprj
 commonAnnotations:
   bgd-version: v3
 replicas:
